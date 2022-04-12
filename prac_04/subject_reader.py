@@ -26,12 +26,13 @@ def get_data():
         data.append(parts)
         print("----------")
     input_file.close()
+    print(data) #prints the list of a list
     return data
 
 
-#def display_subjects(data):
-#    """ Display the data"""
-#    for subject_data in data:
-#        print("{} is taught by {:12} and has {:3} students".format(*subject_data))
+def display_subjects(data):
+    """ Display the data"""
+    for subject_data in data:
+        print("{} is taught by {:12} and has {:3} students".format(*subject_data))
 
 main()
