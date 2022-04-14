@@ -29,7 +29,6 @@ def get_data():
     print(data) #prints the list of a list
     return data
 
-
 def display_subjects(data):
     """ Display the data"""
     for subject_data in data:
